@@ -1,0 +1,78 @@
+body{
+    margin: px;
+    padding: px;
+    font-family: sans-serif;
+    background: rgb(23,65,91);
+    background: -moz-radial-gradient(circle, rgba(23,65,91,1) 0%, rgba(23,65,91,1) 29%, rgba(24,74,101,1) 53%, rgba(24,78,106,1) 68%, rgba(25,99,129,1) 88%, rgba(24,113,145,1) 100%, rgba(21,136,168,1) 100%, rgba(16,171,203,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(23,65,91,1) 0%, rgba(23,65,91,1) 29%, rgba(24,74,101,1) 53%, rgba(24,78,106,1) 68%, rgba(25,99,129,1) 88%, rgba(24,113,145,1) 100%, rgba(21,136,168,1) 100%, rgba(16,171,203,1) 100%);
+    background: radial-gradient(circle, rgba(23,65,91,1) 0%, rgba(23,65,91,1) 29%, rgba(24,74,101,1) 53%, rgba(24,78,106,1) 68%, rgba(25,99,129,1) 88%, rgba(24,113,145,1) 100%, rgba(21,136,168,1) 100%, rgba(16,171,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#17415b",endColorstr="#10abcb",GradientType=1);
+}
+.box{
+    width: 340px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00FF32 ;
+    padding: 14px 10px;
+    width: 260px;
+    height: 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 310px;
+    border-color: #00FF32 ;
+}
+.box input[type="submit"]{
+    height: 50px;
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00FF32 ;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    zoom: 100%;
+    transition: 0.7s;
+    background-color: #00FF32;
+    color: black;
+}
+#logback{
+    border-style: solid;
+    border-width: 0px;
+    border-color: #00FF32;
+    position: absolute;
+    width: 450px;
+    height: 600px;
+    left: 33.5%;
+    top: 10%;
+    box-shadow: 18px 15px #11df3ac5;
+    border-radius: 70px 2px 70px 2px;
+    background-color: rgb(27, 24, 24);
+}
